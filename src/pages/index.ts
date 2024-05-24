@@ -1,3 +1,4 @@
-export { CombinationPage } from "./combination/CombinationPage"
-export { MeasurePage } from "./measure/MeasurePage"
-export { PlateConfigPage } from "./plate-configuration/PlateConfigPage"
+export { CombinationPage } from './combination/CombinationPage'
+export { MeasurePage } from './measure/MeasurePage'
+export { PlateConfigPage } from './plate-configuration/PlateConfigPage'
+export { ResultsPage } from './results/ResultsPage'

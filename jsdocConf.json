@@ -1,0 +1,34 @@
+{
+  "plugins": [
+    "plugins/markdown",
+    "jsdoc-plugin-typescript"
+  ],
+  "recurseDepth": 10,
+  "opts": {
+    "template": "node_modules/docdash",
+    "destination": "./docs/",
+    "recurse": true
+  },
+  "source": {
+    "include": ["./", "README.md"],
+    "includePattern": ".+\\.ts(doc|x)?$",
+    "excludePattern": "node_modules"
+  },
+  "sourceType": "module",
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  },
+  "docdash": {
+    "sort": true,
+    "search": true,
+    "collapse": false
+  },
+  "typescript": {
+    "moduleRoot": "src"
+  }
+}
